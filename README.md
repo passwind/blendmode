@@ -5,7 +5,7 @@ How to use kCGBlendModeSoftLight? The key is the difference between CoreGraph an
 
 **Error**
 
-`
+
     - (void)drawRect:(CGRect)rect {
     
         if (!_isScrollTop) {
@@ -25,11 +25,11 @@ How to use kCGBlendModeSoftLight? The key is the difference between CoreGraph an
         }
     
     }
-`
+
 
 **Correct**
 
-`
+
     if (_isScrollTop) {
 
         UIColor *color = [UIColor colorWithRed:3/255 green:3/255 blue:3/255 alpha:_alpha];
@@ -38,4 +38,3 @@ How to use kCGBlendModeSoftLight? The key is the difference between CoreGraph an
         
         UIRectFillUsingBlendMode(rect, kCGBlendModeSoftLight);
     }
-`
