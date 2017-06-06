@@ -13,6 +13,8 @@
 		E41EAD7A1EE6A0760099AF7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41EAD781EE6A0760099AF7D /* Main.storyboard */; };
 		E41EAD7C1EE6A0760099AF7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41EAD7B1EE6A0760099AF7D /* Assets.xcassets */; };
 		E41EAD7F1EE6A0760099AF7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41EAD7D1EE6A0760099AF7D /* LaunchScreen.storyboard */; };
+		E41EAD871EE6A18C0099AF7D /* 3-14112G04423.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E41EAD861EE6A18C0099AF7D /* 3-14112G04423.jpg */; };
+		E41EAD8B1EE6ADBD0099AF7D /* WeiView.m in Sources */ = {isa = PBXBuildFile; fileRef = E41EAD8A1EE6ADBD0099AF7D /* WeiView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		E41EAD7B1EE6A0760099AF7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E41EAD7E1EE6A0760099AF7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E41EAD801EE6A0760099AF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41EAD861EE6A18C0099AF7D /* 3-14112G04423.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3-14112G04423.jpg"; sourceTree = "<group>"; };
+		E41EAD891EE6ADBD0099AF7D /* WeiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiView.h; sourceTree = "<group>"; };
+		E41EAD8A1EE6ADBD0099AF7D /* WeiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		E41EAD6E1EE6A0760099AF7D /* TestImage */ = {
 			isa = PBXGroup;
 			children = (
+				E41EAD861EE6A18C0099AF7D /* 3-14112G04423.jpg */,
 				E41EAD721EE6A0760099AF7D /* AppDelegate.h */,
 				E41EAD731EE6A0760099AF7D /* AppDelegate.m */,
 				E41EAD751EE6A0760099AF7D /* ViewController.h */,
@@ -67,6 +73,8 @@
 				E41EAD7D1EE6A0760099AF7D /* LaunchScreen.storyboard */,
 				E41EAD801EE6A0760099AF7D /* Info.plist */,
 				E41EAD6F1EE6A0760099AF7D /* Supporting Files */,
+				E41EAD891EE6ADBD0099AF7D /* WeiView.h */,
+				E41EAD8A1EE6ADBD0099AF7D /* WeiView.m */,
 			);
 			path = TestImage;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41EAD7F1EE6A0760099AF7D /* LaunchScreen.storyboard in Resources */,
+				E41EAD871EE6A18C0099AF7D /* 3-14112G04423.jpg in Resources */,
 				E41EAD7C1EE6A0760099AF7D /* Assets.xcassets in Resources */,
 				E41EAD7A1EE6A0760099AF7D /* Main.storyboard in Resources */,
 			);
@@ -150,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41EAD8B1EE6ADBD0099AF7D /* WeiView.m in Sources */,
 				E41EAD771EE6A0760099AF7D /* ViewController.m in Sources */,
 				E41EAD741EE6A0760099AF7D /* AppDelegate.m in Sources */,
 				E41EAD711EE6A0760099AF7D /* main.m in Sources */,
